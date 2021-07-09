@@ -1,7 +1,7 @@
 # xPro-V5 Firmware (Source Code)
 
 ## xPro-V5 Hardware GPIO Pin Mapping
-| I/O | xPro-V5 Function | Description |
+| I/O | xPro-V5 Function | Notes |
 | :---------------: | :---------------: | :---------------: |
 | AXIS | - | - |
 | GPIO_NUM_12 |  X-Axis - Step |  |
