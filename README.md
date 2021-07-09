@@ -17,8 +17,8 @@
 | GPIO_NUM_02 |  Z-Axis - Direction |  |
 | GPIO_NUM_39 |  Z-Axis Limit |  |
 | Outputs | - | - |
-| GPIO_NUM_25 |  Spindle PWM or VFD RS 485 TX | _Default: PWM_ |
-| GPIO_NUM_04 |  Spindle Enable or VFD RS 485 RX | _Default: Spindle Enable_ |
+| GPIO_NUM_25 |  Spindle PWM or VFD RS 485 TX | _Default: **Spindle PWM**_ |
+| GPIO_NUM_04 |  Spindle Enable or VFD RS 485 RX | _Default: **Spindle Enable**_ |
 | GPIO_NUM_21 |  Mist |  |
 | Inputs | - | - |
 | GPIO_NUM_22 |  Probe |  |
