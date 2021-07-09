@@ -1,5 +1,4 @@
-# xPro-V5 Firmware
- xPro-V5 Firmware (Source Code)
+# xPro-V5 Firmware (Source Code)
 
 ## xPro-V5 Hardware GPIO Pin Mapping
 | I/O | xPro-V5 Function | Description |
