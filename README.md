@@ -23,8 +23,8 @@
 | Inputs | - | - |
 | GPIO_NUM_22 |  Probe |  |
 | GPIO_NUM_16 |  Door |  |
-| GPIO_NUM_13 |  Macro 1 | _Default: Undefined_ |
-| GPIO_NUM_00 |  Macro 2 | _Default: Undefined_; Also used for the bootloader (Pulled High on Startup) |
+| GPIO_NUM_13 |  Macro 1 | _Default: **Undefined**_ |
+| GPIO_NUM_00 |  Macro 2 | _Default: **Undefined**_; Also used for the bootloader (Pulled High on Startup) |
 | USB SERIAL | - | - |
 | GPIO_NUM_01 |  UART TX |  |
 | GPIO_NUM_03 |  UART RX |  |
