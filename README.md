@@ -2,6 +2,40 @@
  xPro-V5 Firmware (Source Code)
 
 ## xPro-V5 Hardware GPIO Pin Mapping
+| I/O | xPro-V5 Function | Description |
+| --------------- | :---------------: | :---------------: |
+| AXIS Functions | - | - |
+| GPIO_NUM_12 |  X-Axis - Step |  |
+| GPIO_NUM_14 |  X-Axis - Direction |  |
+| GPIO_NUM_35 |  X-Axis Limit |  |
+| GPIO_NUM_27 |  Y-Axis - Step |  |
+| GPIO_NUM_26 |  Y-Axis - Direction |  |
+| GPIO_NUM_34 |  Y-Axis Limit |  |
+| GPIO_NUM_33 |  A-Axis - Step |  |
+| GPIO_NUM_32 |  A-Axis - Direction |  |
+| GPIO_NUM_36 |  A-Axis Limit | _Default: **"A-Axis Limit"** defined as GPIO_NUM_34 for XYYZ machine config_|
+| GPIO_NUM_15 |  Z-Axis - Step |  |
+| GPIO_NUM_02 |  Z-Axis - Direction |  |
+| GPIO_NUM_39 |  Z-Axis Limit |  |
+| Outputs | - | - |
+| GPIO_NUM_25 |  Spindle PWM or VFD RS 485 TX |  |
+| GPIO_NUM_04 |  Spindle Enable or VFD RS 485 RX |  |
+| GPIO_NUM_21 |  Mist |  |
+| Inputs | - | - |
+| GPIO_NUM_22 |  Probe |  |
+| GPIO_NUM_16 |  Door |  |
+| GPIO_NUM_13 |  Macro 1 |  |
+| GPIO_NUM_00 |  Macro 2 | This is used for the bootloader (Pulled High on Startup) |
+| USB SERIAL | - | - |
+| GPIO_NUM_01 |  UART TX |  |
+| GPIO_NUM_03 |  UART RX |  |
+| SPI Bus | - | - |
+| GPIO_NUM_19 |  MISO |  |
+| GPIO_NUM_23 |  MOSI |  |
+| GPIO_NUM_18 |  SCK |  |
+| GPIO_NUM_05 |  µSD SPI - Card Select |  |
+| GPIO_NUM_17 |  TCM Stepper SPI - Card Select |  |
+
 <img src="https://github.com/Spark-Concepts/xPro-V5/blob/main/images/xProV5-GPIO_PinMap.jpg" width="600">
 
 ### Project Overview
