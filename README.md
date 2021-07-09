@@ -3,7 +3,7 @@
 
 ## xPro-V5 Hardware GPIO Pin Mapping
 | I/O | xPro-V5 Function | Description |
-| --------------- | :---------------: | :---------------: |
+| :---------------: | :---------------: | :---------------: |
 | AXIS | - | - |
 | GPIO_NUM_12 |  X-Axis - Step |  |
 | GPIO_NUM_14 |  X-Axis - Direction |  |
