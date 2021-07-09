@@ -1,6 +1,7 @@
 # xPro-V5 Firmware
  xPro-V5 Firmware (Source Code)
 
+## GPIO Pin Mapping
 <img src="https://github.com/Spark-Concepts/xPro-V5/blob/main/images/xProV5-GPIO_PinMap.jpg" width="600">
 
 ### Project Overview
