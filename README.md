@@ -47,20 +47,7 @@ For basic instructions on using Grbl use the [gnea/grbl wiki](https://github.com
 
 ### Credits
 
-The original [Grbl](https://github.com/gnea/grbl) is an awesome project by Sungeon (Sonny) Jeon. I have known him for many years and he is always very helpful. I have used Grbl on many projects. I only ported because of the limitation of the processors it was designed for. The core engine design is virtually unchanged.
+The CNC xPRO V5 firmware is based on the awesome work of BDring porting the original GRBL to an ESP32 platform.  The original [Grbl](https://github.com/gnea/grbl) is an awesome project by Sungeon (Sonny) Jeon. The core engine design is virtually unchanged.
 
 The Wifi and WebUI is based on [this project.](https://github.com/luc-github/ESP3D-WEBUI)  
 
-### Contribute
-
-<img src="https://discord.com/assets/e05ead6e6ebc08df9291738d0aa6986d.png" width="8%"> There is a Discord server for the development this project. Ask for an invite
-
-### FAQ
-
-Start asking questions...I'll put the frequent ones here.
-
-### <a name="donation"></a>Donation
-
-This project requires a lot of work and often expensive items for testing. Please consider a safe, secure and highly appreciated donation via the PayPal link below or via the Github sponsor link at the top of the page.
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TKNJ9Z775VXB2)
