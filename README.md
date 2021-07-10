@@ -3,7 +3,7 @@
 ## xPro-V5 Hardware GPIO Pin Mapping
 | I/O | xPro-V5 Function | Comments |
 | :---------------: | :---------------: | :---------------: |
-| Steppers | - | - |
+| Stepper Output | - | - |
 | GPIO_NUM_12 |  X-Axis - Step |  |
 | GPIO_NUM_14 |  X-Axis - Direction |  |
 | GPIO_NUM_27 |  Y-Axis - Step |  |
@@ -25,7 +25,7 @@
 | GPIO_NUM_16 |  Door |  |
 | GPIO_NUM_13 |  Macro 1 | _Default: **Undefined**_ |
 | GPIO_NUM_00 |  Macro 2 | _Default: **Undefined**_; Also used for the bootloader (Pulled High on Startup) |
-| USB SERIAL | - | - |
+| USB Serial | - | - |
 | GPIO_NUM_01 |  UART TX |  |
 | GPIO_NUM_03 |  UART RX |  |
 | SPI Bus | - | - |
