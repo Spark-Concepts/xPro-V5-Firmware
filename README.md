@@ -35,6 +35,8 @@
 | GPIO_NUM_05 |  µSD SPI - Card Select |  |
 | GPIO_NUM_17 |  TCM Stepper SPI - Card Select |  |
 
+**note: the mose ***up-to-date*** validated precompiled firmware can be found here: https://github.com/Spark-Concepts/xPro-V5**
+
 ### Compiling Firmware
 
 Important compiling instructions are [in the wiki](https://github.com/bdring/Grbl_Esp32/wiki/Compiling-with-Arduino-IDE#compiling-firmware)
