@@ -32,8 +32,8 @@
 | GPIO_NUM_19 |  MISO |  |
 | GPIO_NUM_23 |  MOSI |  |
 | GPIO_NUM_18 |  SCK |  |
-| GPIO_NUM_05 |  µSD SPI - Card Select |  |
-| GPIO_NUM_17 |  TCM Stepper SPI - Card Select |  |
+| GPIO_NUM_05 |  µSD Reader SPI - Card Select |  |
+| GPIO_NUM_17 |  TMC5160 Stepper SPI - Card Select |  |
 
 ### Pre-Compiled Firmware
 
