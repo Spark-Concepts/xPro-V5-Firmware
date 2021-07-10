@@ -6,21 +6,21 @@
 | AXIS | - | - |
 | GPIO_NUM_12 |  X-Axis - Step |  |
 | GPIO_NUM_14 |  X-Axis - Direction |  |
-| GPIO_NUM_35 |  X-Axis Limit |  |
 | GPIO_NUM_27 |  Y-Axis - Step |  |
 | GPIO_NUM_26 |  Y-Axis - Direction |  |
-| GPIO_NUM_34 |  Y-Axis Limit |  |
 | GPIO_NUM_33 |  A-Axis - Step |  |
 | GPIO_NUM_32 |  A-Axis - Direction |  |
-| GPIO_NUM_36 |  A-Axis Limit | _Default: **"A-Axis Limit"** defined as GPIO_NUM_34 for XYYZ machine config_|
 | GPIO_NUM_15 |  Z-Axis - Step |  |
 | GPIO_NUM_02 |  Z-Axis - Direction |  |
-| GPIO_NUM_39 |  Z-Axis Limit |  |
 | Outputs | - | - |
 | GPIO_NUM_25 |  Spindle PWM or VFD RS 485 TX | _Default: **Spindle PWM**_ |
 | GPIO_NUM_04 |  Spindle Enable or VFD RS 485 RX | _Default: **Spindle Enable**_ |
 | GPIO_NUM_21 |  Mist |  |
 | Inputs | - | - |
+| GPIO_NUM_35 |  X-Axis Limit |  |
+| GPIO_NUM_34 |  Y-Axis Limit |  |
+| GPIO_NUM_36 |  A-Axis Limit | _Default: **"A-Axis Limit"** defined as GPIO_NUM_34 for XYYZ machine config_ |
+| GPIO_NUM_39 |  Z-Axis Limit |  |
 | GPIO_NUM_22 |  Probe |  |
 | GPIO_NUM_16 |  Door |  |
 | GPIO_NUM_13 |  Macro 1 | _Default: **Undefined**_ |
