@@ -41,8 +41,6 @@ Important compiling instructions are [in the wiki](https://github.com/bdring/Grb
 
 The code should be compiled using the latest Arduino IDE. [Follow instructions here](https://github.com/espressif/arduino-esp32) on how to setup ESP32 in the IDE. The choice was made to use the Arduino IDE over the ESP-IDF to make the code a little more accessible to novices trying to compile the code.
 
-I use the ESP32 Dev Module version of the ESP32. I suggest starting with that if you don't have hardware yet.
-
 For basic instructions on using Grbl use the [gnea/grbl wiki](https://github.com/gnea/grbl/wiki). That is the Arduino version of Grbl.
 
 ### Credits
