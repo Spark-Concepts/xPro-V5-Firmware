@@ -39,9 +39,9 @@
 
 Pre-Compiled [xPro-V5 firmware](https://github.com/Spark-Concepts/xPro-V5/wiki/Checking_firmware_and_upgrading#precompiled-firmware) has been fully tested and verified
 
-**If is recommended that you use The mose ***up-to-date*** precompiled [xPro-V5 firmware](https://github.com/Spark-Concepts/xPro-V5/wiki/Checking_firmware_and_upgrading#precompiled-firmware) found here: https://github.com/Spark-Concepts/xPro-V5**
+The mose ***up-to-date*** precompiled [xPro-V5 firmware](https://github.com/Spark-Concepts/xPro-V5/wiki/Checking_firmware_and_upgrading#precompiled-firmware) found here: 
 
-
+https://github.com/Spark-Concepts/xPro-V5
 
 ### Compiling Firmware
 
