@@ -35,7 +35,13 @@
 | GPIO_NUM_05 |  µSD SPI - Card Select |  |
 | GPIO_NUM_17 |  TCM Stepper SPI - Card Select |  |
 
-**note: the mose ***up-to-date*** validated precompiled firmware can be found here: https://github.com/Spark-Concepts/xPro-V5**
+### Pre-Compiled Firmware
+
+Pre-Compiled [xPro-V5 firmware](https://github.com/Spark-Concepts/xPro-V5/wiki/Checking_firmware_and_upgrading#precompiled-firmware) has been fully tested and verified
+
+**If is recommended that you use The mose ***up-to-date*** precompiled [xPro-V5 firmware](https://github.com/Spark-Concepts/xPro-V5/wiki/Checking_firmware_and_upgrading#precompiled-firmware) found here: https://github.com/Spark-Concepts/xPro-V5**
+
+
 
 ### Compiling Firmware
 
