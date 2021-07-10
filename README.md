@@ -15,7 +15,7 @@
 | Outputs | - | - |
 | GPIO_NUM_25 |  Spindle PWM or VFD RS 485 TX | _Default: **Spindle PWM**_ |
 | GPIO_NUM_04 |  Spindle Enable or VFD RS 485 RX | _Default: **Spindle Enable**_ |
-| GPIO_NUM_21 |  Mist |  |
+| GPIO_NUM_21 |  Coolant Mist |  |
 | Inputs | - | - |
 | GPIO_NUM_35 |  X-Axis Limit |  |
 | GPIO_NUM_34 |  Y-Axis Limit |  |
