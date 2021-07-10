@@ -43,7 +43,7 @@ The code should be compiled using the latest Arduino IDE. [Follow instructions h
 
 I use the ESP32 Dev Module version of the ESP32. I suggest starting with that if you don't have hardware yet.
 
-For basic instructions on using Grbl use the [gnea/grbl wiki](https://github.com/gnea/grbl/wiki). That is the Arduino version of Grbl, so keep that in mind regarding hardware setup. If you have questions ask via the GitHub issue system for this project.
+For basic instructions on using Grbl use the [gnea/grbl wiki](https://github.com/gnea/grbl/wiki). That is the Arduino version of Grbl.
 
 ### Credits
 
