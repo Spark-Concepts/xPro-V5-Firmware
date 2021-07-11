@@ -1,39 +1,153 @@
 # xPro-V5 Firmware (Source Code)
 
 ## xPro-V5 Hardware GPIO Pin Mapping
-| I/O | xPro-V5 Function | Comments |
-| :---------------: | :---------------: | :---------------: |
-| Steppers | - | - |
-| GPIO_NUM_12 |  X-Axis - Step |  |
-| GPIO_NUM_14 |  X-Axis - Direction |  |
-| GPIO_NUM_27 |  Y-Axis - Step |  |
-| GPIO_NUM_26 |  Y-Axis - Direction |  |
-| GPIO_NUM_33 |  A-Axis - Step |  |
-| GPIO_NUM_32 |  A-Axis - Direction |  |
-| GPIO_NUM_15 |  Z-Axis - Step |  |
-| GPIO_NUM_02 |  Z-Axis - Direction |  |
-| Outputs | - | - |
-| GPIO_NUM_25 |  Spindle PWM or VFD RS 485 TX | _Default: **Spindle PWM**_ |
-| GPIO_NUM_04 |  Spindle Enable or VFD RS 485 RX | _Default: **Spindle Enable**_ |
-| GPIO_NUM_21 |  Coolant Mist |  |
-| Inputs | - | - |
-| GPIO_NUM_35 |  X-Axis Limit |  |
-| GPIO_NUM_34 |  Y-Axis Limit |  |
-| GPIO_NUM_36 |  A-Axis Limit | _Default: **"A-Axis Limit"** defined as GPIO_NUM_34 for XYYZ machine config_ |
-| GPIO_NUM_39 |  Z-Axis Limit |  |
-| GPIO_NUM_22 |  Probe |  |
-| GPIO_NUM_16 |  Door |  |
-| GPIO_NUM_13 |  Macro 1 | _Default: **Undefined**_ |
-| GPIO_NUM_00 |  Macro 2 | _Default: **Undefined**_; Also used for the bootloader (Pulled High on Startup) |
-| USB Serial | - | - |
-| GPIO_NUM_01 |  UART TX |  |
-| GPIO_NUM_03 |  UART RX |  |
-| SPI Bus | - | - |
-| GPIO_NUM_19 |  MISO |  |
-| GPIO_NUM_23 |  MOSI |  |
-| GPIO_NUM_18 |  SCK |  |
-| GPIO_NUM_05 |  µSD Reader SPI - Chip Select |  |
-| GPIO_NUM_17 |  TMC5160 Stepper SPI - Chip Select |  |
+
+## xPro-V5 Hardware GPIO Pin Mapping
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Steppers</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_12</td>
+      <th rowspan="2">X-Axis</th>
+      <td>Step</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_14</td>
+      <td>Direction</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_27</td>
+      <th rowspan="2">Y-Axis</th>
+      <td>Step</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_26</td>
+      <td>Direction</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_33</td>
+      <th rowspan="2">A-Axis</th>
+      <td>Step</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_32</td>
+      <td>Direction</td>
+    </tr>
+</tbody>
+  
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Outputs</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_25</td>
+      <th>Spindle PWM or VFD RS 485 TX</th>
+      <td>_Default: **Spindle PWM**_</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_04</td>
+      <th>Spindle Enable or VFD RS 485 RX</th>
+      <td>_Default: **Spindle Enable**_</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_21</td>
+      <th>Coolant Mist</th>
+      <td></td>
+    </tr>
+</tbody>
+    
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Inputs</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_35</td>
+      <th>X-Axis Limit</th>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_34</td>
+      <th>Y-Axis Limit</th>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_36</td>
+      <th>A-Axis Limit</th>
+      <td>_Default: **"A-Axis Limit"** defined as GPIO_NUM_34 for XYYZ machine config_</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_39</td>
+      <th>Z-Axis Limit</th>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_22</td>
+      <th>Probe</th>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_16</td>
+      <th>Door</th>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_13</td>
+      <th>Macro 1</th>
+      <td>_Default: **Undefined**_</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_00</td>
+      <th>Macro 2</th>
+      <td>_Default: **Undefined**_; GPIO also used for the bootloader (Pulled High on Startup)</td>
+    </tr>
+</tbody>
+  
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">USB Serial</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_01</td>
+      <th>UART TX</th>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_03</td>
+      <th>UART RX</th>
+    </tr>
+</tbody>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">SPI Bus</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_19</td>
+      <th>MISO</th>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_23</td>
+      <th>MOSI</th>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_18</td>
+      <th>SCK</th>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_05</td>
+      <th>µSD Reader SPI</td>
+    </tr>
+    <tr>
+      <td>GPIO_NUM_17</td>
+      <th>TMC5160 Stepper SPI</td>
+    </tr>
+</tbody>
+<table>
 
 ### Pre-Compiled Firmware
 
