@@ -43,12 +43,12 @@
     <tr>
       <td>GPIO_NUM_25</td>
       <th>Spindle PWM or VFD RS 485 TX</th>
-      <td>_Default: **Spindle PWM**_</td>
+      <td>Default: Spindle PWM</td>
     </tr>
     <tr>
       <td>GPIO_NUM_04</td>
       <th>Spindle Enable or VFD RS 485 RX</th>
-      <td>_Default: **Spindle Enable**_</td>
+      <td>Default: Spindle Enable</td>
     </tr>
     <tr>
       <td>GPIO_NUM_21</td>
@@ -75,7 +75,7 @@
     <tr>
       <td>GPIO_NUM_36</td>
       <th>A-Axis Limit</th>
-      <td>_Default: **"A-Axis Limit"** defined as GPIO_NUM_34 for XYYZ machine config_</td>
+      <td>Default: "A-Axis Limit" defined as GPIO_NUM_34 for XYYZ machine config</td>
     </tr>
     <tr>
       <td>GPIO_NUM_39</td>
@@ -95,12 +95,12 @@
     <tr>
       <td>GPIO_NUM_13</td>
       <th>Macro 1</th>
-      <td>_Default: **Undefined**_</td>
+      <td>Default: Undefined</td>
     </tr>
     <tr>
       <td>GPIO_NUM_00</td>
       <th>Macro 2</th>
-      <td>_Default: **Undefined**_; GPIO also used for the bootloader (Pulled High on Startup)</td>
+      <td>Default: Undefined; GPIO also used for the bootloader (Pulled High on Startup)</td>
     </tr>
 </tbody>
   
