@@ -138,11 +138,11 @@
     </tr>
     <tr>
       <td>GPIO_NUM_05</td>
-      <th>µSD Reader SPI</td>
+      <th>µSD Reader SPI Card Select</td>
     </tr>
     <tr>
       <td>GPIO_NUM_17</td>
-      <th>TMC5160 Stepper SPI</td>
+      <th>TMC5160 Stepper SPI Card Select</td>
     </tr>
 </tbody>
 <table>
