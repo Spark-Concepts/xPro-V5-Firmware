@@ -1,8 +1,6 @@
 # xPro-V5 Firmware (Source Code)
 
 ## xPro-V5 Hardware GPIO Pin Mapping
-
-## xPro-V5 Hardware GPIO Pin Mapping
 <table>
   <thead>
     <tr>
