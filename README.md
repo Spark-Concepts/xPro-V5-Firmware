@@ -1,5 +1,7 @@
 # xPro-V5 Firmware (Source Code)
 
+_Please note this repository is not intended for developmental purposes and contains the most stable xPro-V5 specific source code based off of the magnificent [BDring porting of the original GRBL to an ESP32 platform](https://github.com/bdring/Grbl_Esp32/blob/main/README.md)_
+
 ## xPro-V5 Hardware GPIO Pin Mapping
 <table>
   <thead>
