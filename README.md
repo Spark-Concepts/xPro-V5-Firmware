@@ -163,7 +163,7 @@ For basic instructions on using Grbl use the [gnea/grbl wiki](https://github.com
 
 ### Credits
 
-The CNC xPRO V5 firmware is based on the awesome work of BDring porting the original GRBL to an ESP32 platform.  The original [Grbl](https://github.com/gnea/grbl) is an awesome project by Sungeon (Sonny) Jeon. The core engine design is virtually unchanged.
+The CNC xPRO V5 firmware is based on the awesome work of BDring [porting](https://github.com/bdring/Grbl_Esp32/blob/main/README.md) the original GRBL to an ESP32 platform.  The original [Grbl](https://github.com/gnea/grbl) is an awesome project by Sungeon (Sonny) Jeon. The core engine design is virtually unchanged.
 
 The Wifi and WebUI is based on [this project.](https://github.com/luc-github/ESP3D-WEBUI)  
 
