@@ -108,6 +108,8 @@ These correspond to the specific hardware on the controller.  */
 #define A_LIMIT_PIN             GPIO_NUM_36
 #define Y_LIMIT_PIN             GPIO_NUM_34
 #define Z_LIMIT_PIN             GPIO_NUM_39
+#define MACRO_BUTTON_0_PIN      GPIO_NUM_13
+#define MACRO_BUTTON_1_PIN      GPIO_NUM_0
 #define CONTROL_SAFETY_DOOR_PIN GPIO_NUM_16
 /********************************************/
 
@@ -166,6 +168,8 @@ These correspond to the specific hardware on the controller.  */
  #ifdef INVERT_CONTROL_PIN_MASK
 	#undef INVERT_CONTROL_PIN_MASK
  #endif
- // For NC Door switch INVERT_CONTROL_PIN_MASK = B00001110
- // For NO Door switch INVERT_CONTROL_PIN_MASK = B00001111
- #	  define INVERT_CONTROL_PIN_MASK B00001111
+ // The mask order is ...
+ // Macro3 | Macro2 | Macro1 | Macro0 | Cycle Start | Feed Hold | Reset | Safety Door
+ // For NC Door switch INVERT_CONTROL_PIN_MASK = B00111110
+ // For NO Door switch INVERT_CONTROL_PIN_MASK = B00111111
+ #    define INVERT_CONTROL_PIN_MASK B00111111
